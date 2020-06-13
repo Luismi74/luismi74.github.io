@@ -1,0 +1,23 @@
+{
+  "name": "devbonilla.github.io",
+  "version": "1.0.0",
+  "description": "my portfolio",
+  "main": "main.js",
+  "dependencies": {
+    "particles.js": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Luismi74/luismi74.github.io.git"
+  },
+  "author": "Luis Miguel P. Bonilla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Luismi74/luismi74.github.io/issues"
+  },
+  "homepage": "https://github.com/Luismi74/luismi74.github.io#readme"
+}
