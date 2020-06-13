@@ -77,5 +77,9 @@
     }
   }
 
-
+#particles-js {
+  width: 400px;
+  height: 300px;
+  background: #fd5266;
+}
   
