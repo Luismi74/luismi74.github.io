@@ -1,9 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 #footerfont {
     font-family: 'PT Sans', sans-serif;
 }
+#boldtext {
+  font-family:'PT Sans', sans-serif;
+  font-weight: 400;
+}
 
+#whoami {
+  font-family: 'Staatliches', cursive;
+  font-size: 90px;
+}
+
+#particles-js {
+height: 100vh;
+background-image: url("");
+}
+
+body { 
+  margin: 0;
+}
   .liquido {
     position: relative;
     text-align: center;
