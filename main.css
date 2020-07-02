@@ -24,7 +24,8 @@ body {
   .liquido {
     position: relative;
     text-align: center;
-    width: 120px;
+    width: 180px;
+    height: 50px;
     box-sizing: border-box;
     overflow: hidden;
     font-weight: 15;
