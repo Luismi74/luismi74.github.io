@@ -6,16 +6,16 @@
         <title>Luis Bonilla Portfolio</title>
         <meta name="description" content="Luis Portfolio">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link  rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
-        <script src="https://kit.fontawesome.com/f4adf1766d.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css">
+        
         <link rel="stylesheet" href="main.css">
     </head>
     <body> 
         <!-- Top Menu -->
-    <div class="flex-1 h-16 bg-white lg:flex lg:items-center lg:justify-between px-6">
+    <div class="flex-1 md:h-16 bg-white md:flex md:items-center md:justify-between px-6">
         <div class="flex-1 text-gray-100 text-center px-4 py-2 m-2"></div>
-        <div class="px-2"><h2 class="text-gray-900 text-xl" id="boldtext">Home</h2></div>
-        <div class="px-2"><h2 class="text-gray-900 text-xl" id="boldtext">Projects</h2></div>  
+        <h2 class="text-gray-900 text-xl px-2" id="boldtext">Home</h2>
+        <h2 class="text-gray-900 text-xl px-2" id="boldtext">Projects</h2> 
     </div>   
     <!-- hi im luis section -->
     <div class="container"> 
@@ -24,7 +24,7 @@
         <!-- idea taken from https://codepen.io/Sherpa23/pen/rKvJXg -->
                 <img class=" rounded-full mx-auto h-48 w-48 md:h-64 md:w-64 " src="assets/imgs/avatar.webp" alt="luis profile pic">
                     <a href="#" class="box" rel="noopener">
-                    <div class="text-gray-900 md:py-4 md:px-4 box__image" id="whoami">Hi! I'm Luis Miguel</div></a>  
+                    <div class="text-gray-900 md:py-4 md:px-4 box__image w-1-/3" id="whoami">Hi! I'm Luis Miguel</div></a>  
             </div>
         </div>
     </div>
@@ -63,26 +63,29 @@
     <div class="py-2">
             <input class="bg-gray-300 appearance-none border-2 border-gray-300 rounded w-full py-8 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-teal-300" id="message" type="text" placeholder="Write your Message">
     </div>
-        <div class="justify-center mx-auto px-20 py-4 md:px-64">
+        <div class="justify-center mx-auto px-20 py-4 md:px-24 lg:px-64">
             <button class="shadow bg-teal-600 hover:bg-teal-400 focus:shadow-outline focus:outline-none text-white font-bold md:py-2 md:px-12 py-2 px-4 rounded" type="button">
                 Send
             </button>
         </div>
     </div>
 
+
 <!-- footer -->
-        <div class=" px-5 py-8">
-            <footer class="block text-gray-900 text-center px-4 py-2 text-sm" id="footerfont">
-                <div class="px-6 m-2"> 
-                    <a class="px-2" href="https://twitter.com/Dev_Luismi" target="_blank" rel="noopener"><i class="fab fa-twitter fa-2x"></i></a>
-                    <a class="px-2" href="https://github.com/Luismi74" target="_blank" rel="noopener"><i class="fab fa-github fa-2x"></i></a>
-                    <a class="px-2" href="https://www.instagram.com/parentluis" target="_blank" rel="noopener"><i class="fab fa-instagram fa-2x"></i></a>
-                    <br>
+        <div>
+            <footer class="text-gray-900 text-center py-8 text-sm mx-auto" id="footerfont">
+                <div class="flex justify-center"> 
+                <a class="px-2" href="https://github.com/Luismi74"><img src="/assets/imgs/github-square.svg" class="h-8 w-8"></a>
+                <a class="px-2" href="https://www.instagram.com/parentluis/"><img src="/assets/imgs/instagram.svg" class="h-8 w-8"></a>
+                <a class="px-2" href="https://twitter.com/Dev_Luismi"><img src="/assets/imgs/twitter.svg" class="h-8 w-8"></a>
+                </br>
                 </div>
-<!-- automatic copyright year changer -->
-        <span>
-            © 2020 - Luis Miguel Bonilla
-        </span>  
+        
+                <div class="py-2">
+                    <span class="font-bold">
+                        © 2020 - Luis Miguel Bonilla
+                    </span> 
+                </div>
         </footer>
     </div>
         <script src="main.js" async defer></script>
