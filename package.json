@@ -4,6 +4,7 @@
   "description": "my portfolio",
   "main": "main.js",
   "dependencies": {
+    "imagemin-jpegtran": "^7.0.0",
     "particles.js": "^2.0.0"
   },
   "devDependencies": {},
