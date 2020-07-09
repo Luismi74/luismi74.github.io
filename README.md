@@ -1,4 +1,6 @@
-# My Portfolio (devbonilla.github.io)
+# My Portfolio (luismi74.github.io)
+
+This is the source code for my portfolio, feel free to check it out.
 
 ### I've couldn't make it without these great resources:
 
