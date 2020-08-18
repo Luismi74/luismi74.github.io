@@ -1,6 +1,6 @@
 # My Portfolio (luismi74.github.io)
 
-This is the source code for my portfolio, feel free to check it out.
+This is the source code for my developer portfolio, feel free to check it out.
 
 **Important note** is that the mobile version works perfectly on my Oneplus 7T using Chrome or Duckduckgo browser, but when tested on an iPhone had some alignment issues which I will be focusing to fix soon.
 
