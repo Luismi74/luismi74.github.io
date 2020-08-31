@@ -12,3 +12,6 @@ This is the source code for my developer portfolio, feel free to check it out.
 #### dev.to Link: https://dev.to/luismi74/building-my-portfolio-from-scratch-pt-1-1p85
 
 Check out the projects section
+
+git init
+
