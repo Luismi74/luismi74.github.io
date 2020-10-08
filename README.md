@@ -13,5 +13,4 @@ This is the source code for my developer portfolio, feel free to check it out.
 
 Check out the projects section
 
-git init
 
